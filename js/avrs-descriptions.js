@@ -1,0 +1,36 @@
+//desc 1
+var desc1= document.getElementsByClassName("1description");
+
+var text1="Available for lease. Enhance your business with a unique layout, spacious commercial space. The 1st floor is equipped with water hookups, optional walk-in fridge, and high-powered HVAC system. Retail ready with high visibility from the road, residents, and public transportation yet functional to serve as an office space.";
+
+desc1[0].innerHTML=text1;
+desc1[1].innerHTML=text1;
+
+//desc 2
+var desc2= document.getElementsByClassName("2description");
+
+var text2="<strong>Announcment Coming Soon!</strong>";
+desc2[0].innerHTML=text2;
+desc2[1].innerHTML=text2;
+
+//desc 3
+var desc3= document.getElementsByClassName("3description");
+
+var text3="<strong>200 Sq Ft Bedroom. ALL UTILITIES INCLUDED.</strong> Enjoy the spacious, fully furnished bedroom for the move-in ready person who loves tons of closet space, morning sunlight, and living in a community where everything is just walking distance.";
+desc3[0].innerHTML=text3;
+desc3[1].innerHTML=text3;
+ 
+
+// security comfort convenience
+var desc_scc= document.getElementsByClassName("scc-description");
+
+var text_scc="Rest assured with 24/7 security cameras, fire safety, and safety policies/procedures come standard whether you have a business or a residence at 114 Cove St.";
+
+desc_scc[0].innerHTML=text_scc;
+
+var bldd= document.getElementsByClassName("best-leasing-deals-description");
+
+blddTxt= "Get a head start in setting up your business in a high traffic and high visibility community accessible by car, walking, and public transportation!"
+
+bldd[0].innerHTML=blddTxt;
+bldd[1].innerHTML=blddTxt;
