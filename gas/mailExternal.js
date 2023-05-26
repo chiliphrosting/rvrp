@@ -34,11 +34,19 @@ function infoEmailer(subject, body) {
   MailApp.sendEmail(emailRecepient, subject, body);
 };
 
+//DO NOT USE 26May23
 function infoSummarySendToOwner() {
   var todayDate = new Date ();
-  var subjectText = `website form: ${todayDate}`;
+  var subjectText = `RVRP website form: ${todayDate}`;
   var infoSetter = infoGetter();
   infoEmailer(subjectText, infoSetter)
+
+}
+
+//USE 26May23
+function emailSendToOwner() {
+
+GmailApp.sendEmail("reliablevirtualreal@yahoo.com", `RVRP website form: ${ new Date()}`, infoGetter() )
 
 }
 
