@@ -350,12 +350,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-header {
-  position: absolute;
+  position: absolute; /** original: absolute**/
+  
   z-index: 1001;
   width: 100%;
   margin: 0px 0 0 0;
   background: rgba(0, 0, 0, 0.5);
 }
+/********/
+/********/
+
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin: 0px 0 0 0;
