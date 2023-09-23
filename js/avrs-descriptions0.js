@@ -1,7 +1,7 @@
 //desc 1
 var desc1= document.getElementsByClassName("1description");
 
-var text1="Available for rent. Unique layout. Originally, a neighborhood bar. Water hookups Ready! Spacious. Highpowered HVAC";
+var text1="PJ's Fine Foods LLC is the manufacturer of Crazy Uncle Red's jellies and sauces trailblazing.";
 
 desc1[0].innerHTML=text1;
 
