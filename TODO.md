@@ -1,7 +1,7 @@
 # TODO 🚧
 
 ## OPTIMIZATION
-
+- [x] Blank `robot.txt` in the root directory (8Aug24)
 ## GDRIVE API BUILD for hot reload when serving up the website
 
 #### API (b-e)
