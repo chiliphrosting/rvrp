@@ -1,8 +1,8 @@
 //desc 1
-/*** used w/ 100.html **/
+/*** used w/ snow-rm.html **/
 var desc1= document.getElementsByClassName("1description");
 
-var text1="Crazy Uncle Red's are hot pepper jellies made with a secret blend of peppers, some you've tasted a million times and others you've probably never heard of. This gives it the irresistable complexity that makes it \"good on most things and incredible on everything else.\"\n\nIt's also vegan, fat free and all-natural. Handmade in small batches, and we stand by the quality of every last drop.";
+var text1="Warm stuf tuyping df dfladf ksdkfsdf lsdfkdf kdf kdfk asdfksdfksdf  dfksdfkl lsdkfksdksdfksdlfsdfkdsf lksdfkdsfkl sdflksdfk. skdfksdlsdfk sdfklsdkfsdkl";
 /*
 var text1="Crazy Uncle Red's isn't the only hot pepper jelly out there, and it certainly wasn't the first, but we'd venture to say it's the best we've ever had, and a steadily growing coterie of friends and fans seem to agree. What makes it unique is our secret blend of peppers, some you've tasted a million times and others you've probably never heard of. This gives it the irresistable complexity that makes it \"good on most things and incredible on everything else.\"\n\nIt's also vegan, fat free and all-natural. It's handmade in small batches, and we stand by the quality of every last drop.";
 */
