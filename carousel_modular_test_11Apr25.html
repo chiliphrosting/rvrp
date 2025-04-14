@@ -91,38 +91,28 @@ NOTES
 				<ul class="slides">
 
 					<!-- INTRO list item -->
-
+					<!-- <span id="carousel-all"></span> -->
+					<!-- {carousel-all} -->
 					<!-- 4th list item: SNOW RM -->
-					<script>
-						let url = "https://script.googleusercontent.com/a/macros/avrstory.net/echo?user_content_key=AehSKLje5OxL5Z9CiiocYq-Aj7dl8q72v9SrmTUfHHTJsrNYv3rjB0b4E5y2W3MGGyhB-N2o8m2vxuqVrM3lm6MgLxQJkc8ai7ZUZMBtgLLNlaoh-qq_v4KobKgrwf00Qwbw6VpnoKt7cpwPTBY0QE6iWpPFpWO-anPDGr6w7WhGJo_rqDIUI91_E8Y58qFwBsylP6qzsxLK2Fq9jPzomG6rTwSbq1oGbr2wSFSTERZeQdp_zt0TgMO2xFnrZFVDCnO5aV_pAB5iFn77jLamXAVnshb5GPp4Lno3HsD-Tk7p7kVv7qO4Xx0&lib=Mmo6qaqMUBKTA9d9cLyfIkHC7tyB-4zAN";
-						fetch(url)
-							.then(response => {
-								// When the page is loaded, convert it to text
-								return response.text();
-							})
-							.then(html => {
-								// Initialize the DOM parser
-								const parser = new DOMParser();
 
-								// Parse the text
-								const doc = parser.parseFromString(html, "text/html");
-
-								// You can now even select part of that HTML as you would in the regular DOM
-								// Example:
-								// const docArticle = doc.querySelector('article').innerHTML
-
-								console.log(doc);
-							})
-							.catch(error => {
-								console.error('Failed to fetch page: ', error);
-							});
-
-
-					</script>
 					<!-- 3rd list item end -->
 				</ul>
 			</div>
 		</aside>
+		<script>
+
+
+			let url = "https://script.googleusercontent.com/a/macros/avrstory.net/echo?user_content_key=AehSKLje5OxL5Z9CiiocYq-Aj7dl8q72v9SrmTUfHHTJsrNYv3rjB0b4E5y2W3MGGyhB-N2o8m2vxuqVrM3lm6MgLxQJkc8ai7ZUZMBtgLLNlaoh-qq_v4KobKgrwf00Qwbw6VpnoKt7cpwPTBY0QE6iWpPFpWO-anPDGr6w7WhGJo_rqDIUI91_E8Y58qFwBsylP6qzsxLK2Fq9jPzomG6rTwSbq1oGbr2wSFSTERZeQdp_zt0TgMO2xFnrZFVDCnO5aV_pAB5iFn77jLamXAVnshb5GPp4Lno3HsD-Tk7p7kVv7qO4Xx0&lib=Mmo6qaqMUBKTA9d9cLyfIkHC7tyB-4zAN";
+
+			fetch(url)
+				.then(response => response.json())
+				.then(data =>
+					//document.getElementById("carousel-all").innerHTML = data.IMAGE1
+					console.log(data.IMAGE1)
+				)
+				.catch(error => console.error('Error:', error));
+
+		</script>
 		<div id="best-deal">
 			<div class="container">
 				<div class="row">
